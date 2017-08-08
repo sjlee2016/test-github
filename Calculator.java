@@ -22,4 +22,10 @@ public class Calculator{
 
    return a-b;
   }
+  private static int mult(int a, int b)
+  {
+   //returns the result of a-b
+
+   return a*b;
+  }
 }

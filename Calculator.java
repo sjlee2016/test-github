@@ -35,4 +35,10 @@ public class Calculator{
 
    return a*b;
   }
+  private static int div(int a, int b)
+  {
+   //returns the result of a-b
+
+   return a/b;
+  }
 }

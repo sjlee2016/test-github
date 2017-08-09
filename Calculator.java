@@ -16,11 +16,18 @@ public class Calculator{
     return a+b;
   }
 
-  private static int sub(int a, int b)
+  private static int sub(int a, int b, Object GPU)
   {
    //returns the result of a-b
+   int result = 0;
+   if(GPU==null)
+   {
+     result = a- b;
 
-   return a-b;
+   }else {
+     result = a-b;
+   }
+   return result;
   }
   private static int mult(int a, int b)
   {

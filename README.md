@@ -16,4 +16,3 @@ Today, I had the opportunity to learn about Markdown.
 
 ~~~~
 
-

@@ -16,6 +16,11 @@ public class Calculator{
     return a+b;
   }
 
+    private static int rad(int a, int b)
+    {
+      return b%a;
+    }
+
   private static int sub(int a, int b, Object GPU)
   {
    //returns the result of a-b
